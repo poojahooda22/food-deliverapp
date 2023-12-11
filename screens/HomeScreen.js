@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-async function HomeScreen() {
+const HomeScreen = () => {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
+    <View>
+      <Text>HomeScreen</Text>
     </View>
-  );
+  )
 }
 
-export default HomeScreen;
+export default HomeScreen
