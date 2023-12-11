@@ -3,14 +3,9 @@ import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { TailwindProvider } from 'tailwindcss-react-native';
+import './tailwind.css';
+import HomeScreen from './screens/HomeScreen';
 
-function HomeScreen() {
-  return (
-    <View>
-      <Text  className="text-cyan-700">Home Screen</Text>
-    </View>
-  );
-}
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +16,9 @@ function App() {
         <Stack.Navigator>
           <Stack.Screen name="Home" component={HomeScreen} />
         </Stack.Navigator>
+        {/* <Stack.Navigator>
+          <Stack.Screen name="Home" component={HomeScreen} />
+        </Stack.Navigator> */}
       </TailwindProvider>
     </NavigationContainer>
   );
