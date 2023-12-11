@@ -10,9 +10,9 @@ export default function App() {
   return (
     <NavigationContainer>
       <TailwindProvider>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-      </Stack.Navigator>
+        <Stack.Navigator>
+          <Stack.Screen name="Home" component={HomeScreen} />
+        </Stack.Navigator>
       </TailwindProvider>
     </NavigationContainer>
   );
