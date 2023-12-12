@@ -4,7 +4,7 @@ import React from 'react'
 function CartScreen() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>There is no </Text>
+        <Text> </Text>
       </View>
     );
   }
