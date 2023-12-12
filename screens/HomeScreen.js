@@ -16,27 +16,29 @@ const  HomeScreen = () => {
 
 
   return (
-    <SafeAreaView className="bg-white ">
+    <SafeAreaView className="bg-white pt-8">
       <Text>
         {/* Header */}
 
-        <View className="flex-row pb-3 items-center mx-4 space-x-2">
-          <Image
-            source={{
-              uri: "https://links.papareact.com/wru",
-            }}
-            className="h-8 w-8 bg-gray-300 p-4 rounded-full"
-          />
+        <View className="flex flex-row items-center justify-evenly">
+          <View className="flex-row pb-3 items-center mx-4 space-x-2">
+            <Image
+              source={{
+                uri: "https://links.papareact.com/wru",
+              }}
+              className="h-8 w-8 bg-gray-300 p-4 rounded-full"
+            />
 
-          <View>
-            <Text className="font-bold text-gray-400 text-xs">Deliver Now!</Text>
-            <Text className="font-bold text-xl">
-              Current location
-              <ChevronDownIcon size={20} color="#00ccbb" />
-            </Text>
+            <View>
+              <Text className="font-bold text-gray-400 text-xs">Deliver Now!</Text>
+              <Text className="font-bold text-xl">
+                Current location
+                <ChevronDownIcon size={20} color="#00ccbb" />
+              </Text>
+            </View>
           </View>
 
-          <UserIcon size={35} color="#00ccbb" />
+          <UserIcon size={32} color="#00ccbb" />
         </View>
       </Text>
     </SafeAreaView>
