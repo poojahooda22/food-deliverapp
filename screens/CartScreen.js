@@ -9,4 +9,4 @@ function CartScreen() {
     );
   }
 
-export default HomeScreen;
+export default CartScreen;
