@@ -39,11 +39,11 @@ import { ChevronDownIcon, UserIcon, SearchIcon, AdjustmentsIcon } from "react-na
           </View>     
 
         {/* Search Bar */} 
-        <View>
+        {/* <View>
           <View>
             <SearchIcon color="gray" size={20} />
           </View>
-        </View>
+        </View> */}
     </SafeAreaView>
   );
 }
