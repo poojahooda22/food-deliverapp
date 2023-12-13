@@ -40,7 +40,9 @@ import { ChevronDownIcon, UserIcon, SearchIcon, AdjustmentsIcon } from "react-na
 
         {/* Search Bar */} 
         <View>
-          
+          <View>
+            <SearchIcon color="gray" size={20} />
+          </View>
         </View>
     </SafeAreaView>
   );
