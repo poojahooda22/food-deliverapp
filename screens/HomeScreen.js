@@ -39,7 +39,13 @@ import Search from './Search';
             <UserIcon size={32} color="#00ccbb" />
           </View>
 
-          {/* Search Bar */}  
+          {/* Search Bar */}
+          <View>
+          <Search />
+          </View>
+          
+
+          {/* Categories */}  
       </Text>
     </SafeAreaView>
   );
