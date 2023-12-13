@@ -2,6 +2,7 @@ import { View, Text, SafeAreaView, Image, TextInput } from 'react-native'
 import React, { useLayoutEffect } from 'react';
 import { useNavigation } from "@react-navigation/native";
 import { ChevronDownIcon, UserIcon, SearchIcon, AdjustmentsIcon } from "react-native-heroicons/outline";
+import Search from './Search';
 
 
  const  HomeScreen = () => {
@@ -13,7 +14,6 @@ import { ChevronDownIcon, UserIcon, SearchIcon, AdjustmentsIcon } from "react-na
       headerShown: false,
     });
   })
-
 
   return (
     <SafeAreaView className="bg-white pt-8">
@@ -39,11 +39,8 @@ import { ChevronDownIcon, UserIcon, SearchIcon, AdjustmentsIcon } from "react-na
           </View>     
 
         {/* Search Bar */} 
-        {/* <View>
-          <View>
-            <SearchIcon color="gray" size={20} />
-          </View>
-        </View> */}
+        <Search />
+        
     </SafeAreaView>
   );
 }
