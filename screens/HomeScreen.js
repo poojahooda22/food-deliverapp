@@ -17,6 +17,7 @@ import Search from './Search';
 
   return (
     <SafeAreaView className="bg-white pt-8">
+      <Text>
       
         {/* Header */}
           <View className="flex-row pb-3 items-center mx-4 space-x-2">
@@ -36,10 +37,10 @@ import Search from './Search';
             </View>
 
             <UserIcon size={32} color="#00ccbb" />
+          </View>
 
-            {/* Search Bar */} 
-            
-          </View>        
+          {/* Search Bar */}  
+      </Text>
     </SafeAreaView>
   );
 }
