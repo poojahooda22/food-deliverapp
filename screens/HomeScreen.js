@@ -2,7 +2,7 @@ import { View, Text, SafeAreaView, Image, TextInput } from 'react-native'
 import React, { useLayoutEffect } from 'react';
 import { useNavigation } from "@react-navigation/native";
 import { ChevronDownIcon, UserIcon, SearchIcon, AdjustmentsIcon } from "react-native-heroicons/outline";
-import Search from './Search';
+import {Search} from './Search';
 
 
  const  HomeScreen = () => {
