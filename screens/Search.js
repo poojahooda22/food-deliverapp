@@ -1,5 +1,7 @@
 import { View, Text, TextInput } from 'react-native'
 import React from 'react'
+import { SearchIcon, AdjustmentsIcon } from "react-native-heroicons/outline";
+
 
 const Search = () => {
   return (
@@ -11,6 +13,7 @@ const Search = () => {
                 keyboardType='default'
             />
         </View>
+        <AdjustmentsIcon color="gray" size={20} />
     </View> 
   )
 }
