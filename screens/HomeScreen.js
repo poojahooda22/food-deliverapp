@@ -41,7 +41,7 @@ import {Search} from './Search';
 
           {/* Search Bar */}
           <View>
-            <Search />
+            
           </View>
           
 
