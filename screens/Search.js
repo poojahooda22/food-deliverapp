@@ -3,7 +3,7 @@ import React from 'react'
 import { SearchIcon, AdjustmentsIcon } from "react-native-heroicons/outline";
 
 
-const Search = () => {
+export default function Search  () {
   return (
     <View className="flex-row items-center space-x-2 mx-4">
         <View className="flex-row flex-1 space-x-2 bg-gray-200 p-3">
@@ -17,5 +17,3 @@ const Search = () => {
     </View> 
   )
 }
-
-export default Search;
