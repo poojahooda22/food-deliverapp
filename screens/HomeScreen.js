@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 import { ChevronDownIcon, UserIcon, SearchIcon, AdjustmentsIcon } from "react-native-heroicons/outline";
 
 
-const  HomeScreen = () => {
+ const  HomeScreen = () => {
 
   const navigation = useNavigation();
 
@@ -19,7 +19,6 @@ const  HomeScreen = () => {
     <SafeAreaView className="bg-white pt-8">
       
         {/* Header */}
-
           <View className="flex-row pb-3 items-center mx-4 space-x-2">
             <Image
               source={{
@@ -37,21 +36,12 @@ const  HomeScreen = () => {
             </View>
 
             <UserIcon size={32} color="#00ccbb" />
-          </View>
+          </View>     
 
-
-        {/* Search */}
-        <View className="flex-row items-center space-x-2 pb-2 mx-4">
-          <View className="flex-row flex-1 space-x-2 bg-gray-200 p-3">
-            <SearchIcon size={20} color="#00ccbb" />
-            <TextInput
-              placeholder="Search"
-              keyboardType='default'
-            />
-          </View>
-          <AdjustmentsIcon color="#00CCBB" />
+        {/* Search Bar */} 
+        <View>
+          
         </View>
-      
     </SafeAreaView>
   );
 }
