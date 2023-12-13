@@ -8,6 +8,7 @@ const Search = () => {
             <SearchIcon color="gray" size={20} />
             <TextInput
                 placecholder="Restaurants and cuisines"
+                keyboardType='default'
             />
         </View>
     </View> 
